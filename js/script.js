@@ -11,8 +11,9 @@ sliderThumbs.on('click', (swiper)=> {
 
 const sliderMain = new Swiper('.slider-main', {
     loop: true,
-    thumbs: {
-        swiper:sliderThumbs,
-    },
-
+    spaceBetween: 10,
+    loopedSlides: 6,
 });
+
+sliderThumbs.controller.control = sliderMain;
+sliderMain.controller.control = sliderThumbs;
