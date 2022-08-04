@@ -1,9 +1,8 @@
 # promo-web
-Promo web site Batman 202
 
-Use https://wolfsa13.github.io/promo-web/ to see deploy
+<h1>Promo web site Batman 2022</h1>
 
-Tech-steck:
+<b>Tech-steck:</b>
 HTML
 CSS
 JavaScript
